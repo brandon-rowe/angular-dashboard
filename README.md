@@ -1,7 +1,7 @@
 # angular-dashboard
 Angular,  NodeJS, Nginx, MongoDB
 
-by [brandon-rowe](https://github.com/brandon-rowe) and [dylan-napoli](https://github.com/dnapoli97)
+by [brandon-rowe](https://github.com/brandon-rowe) , [dylan-napoli](https://github.com/dnapoli97) , and {Kailyn](https://github.com/kailynw)
 
 [![license](https://img.shields.io/github/license/tomastrajan/angular-ngrx-material-starter.svg)](https://github.com/brandon-rowe/angular-dashboard/blob/master/LICENSE) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Build Status](https://travis-ci.org/tomastrajan/angular-ngrx-material-starter.svg?branch=master)](https://travis-ci.org/tomastrajan/angular-ngrx-material-starter) 
 
@@ -16,6 +16,8 @@ by [brandon-rowe](https://github.com/brandon-rowe) and [dylan-napoli](https://gi
 
 ### MongoDB
 
+### UPDATE: server_config.sh sets up server and takes care of Items 2 - 4 Manage Server & Config Nginx
+
 ### Digitalocean and Nginx
 + [Configure Digitalocean Server Droplet](https://www.digitalocean.com/docs/droplets/how-to/create/)
 + [Manage Ubuntu Server Droplet](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04)
@@ -25,10 +27,15 @@ by [brandon-rowe](https://github.com/brandon-rowe) and [dylan-napoli](https://gi
 + [Configure SSL with CertBot Nginx](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
 + [Configure Uncomplicated Firewall](https://www.vultr.com/docs/how-to-configure-ufw-firewall-on-ubuntu-14-04)
 
-## Getting started (Install)
+## Configure Server
 ```bash
 git clone https://github.com/brandon-rowe/angular-dashboard
 cd angular-dashboard
+bash server_config.sh
+```
+
+## Getting started (Install)
+```bash
 npm install -g @angular/cli
 bash ng serinstall.bash
 ```
