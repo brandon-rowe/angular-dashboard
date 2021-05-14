@@ -1,7 +1,7 @@
 # angular-dashboard
 Angular,  NodeJS, Nginx, MongoDB
 
-by [brandon-rowe](https://github.com/brandon-rowe) , [dylan-napoli](https://github.com/dnapoli97) , and {Kailyn](https://github.com/kailynw)
+by [brandon-rowe](https://github.com/brandon-rowe) , [dylan-napoli](https://github.com/dnapoli97) , and [Kailyn](https://github.com/kailynw)
 
 [![license](https://img.shields.io/github/license/tomastrajan/angular-ngrx-material-starter.svg)](https://github.com/brandon-rowe/angular-dashboard/blob/master/LICENSE) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Build Status](https://travis-ci.org/tomastrajan/angular-ngrx-material-starter.svg?branch=master)](https://travis-ci.org/tomastrajan/angular-ngrx-material-starter) 
 
